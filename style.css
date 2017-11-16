@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("ukhomepage.jpg");
+  background-repeat: no-repeat;
+}
+
+#logo {
+  position: absolute;
+  left: 300px;
+  -webkit-animation: scaling .7s 4 ease;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes scaling {
+    from {
+      	-webkit-transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(0.8);
+    }
+}
